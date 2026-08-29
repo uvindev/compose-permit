@@ -1,0 +1,28 @@
+name: Parser case
+description: Report a Compose shape that produced the wrong review result.
+title: "parser: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Remove credentials, private paths, registry names, and internal service names before sharing a fixture.
+  - type: textarea
+    id: shape
+    attributes:
+      label: Minimal Compose shape
+      description: Supply the smallest synthetic YAML that reproduces the behavior.
+      render: yaml
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected review result
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual review result
+    validations:
+      required: true

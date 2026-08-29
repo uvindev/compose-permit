@@ -1,0 +1,16 @@
+/* TEAM */
+Creator: Uvin Vindula
+Handle: IAMUVIN
+Site: https://iamuvin.com
+Company: ASI Research Labs
+Company Site: https://asiresearch.io
+Location: Sri Lanka / Dubai / London
+
+/* PROJECT */
+Name: ComposePermit
+Type: Browser-local Docker Compose trust-boundary diff reviewer
+License: MIT
+Built: 2026
+
+/* SIGNATURE */
+Built with intention. Shipped with discipline.

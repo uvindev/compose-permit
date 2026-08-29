@@ -1,0 +1,24 @@
+name: Authority rule
+description: Propose a source-backed Compose authority classification.
+title: "rule: "
+labels: [rule]
+body:
+  - type: input
+    id: field
+    attributes:
+      label: Compose field or shape
+      placeholder: services.<name>.privileged
+    validations:
+      required: true
+  - type: textarea
+    id: consequence
+    attributes:
+      label: Host or container consequence
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Primary documentation URL
+    validations:
+      required: true
