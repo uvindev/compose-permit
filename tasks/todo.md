@@ -24,5 +24,5 @@
 - [x] Define parser, review rules, privacy boundary, license, monetization, analytics, and feedback.
 - [x] Implement and test the workbench.
 - [x] Run production and browser checks.
-- [ ] Push one public repository with search topics.
-- [ ] Record iteration 12 in portfolio state.
+- [x] Push one public repository with search topics.
+- [x] Record iteration 12 in portfolio state.

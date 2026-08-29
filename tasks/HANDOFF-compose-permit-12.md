@@ -1,7 +1,7 @@
 # HANDOFF compose-permit-12 — ComposePermit public open-source release
 
 Agent: Codex (deep)
-Status: PARTIAL
+Status: DONE
 Date: 2026-08-29
 
 ## Scope
@@ -17,6 +17,7 @@ I changed: AGENTS.md, CONTRIBUTING.md, LICENSE, README.md, SECURITY.md, app/api/
 - Added deterministic Markdown copy/download, clean and error states, responsive layout, security headers, metadata, analytics event names, and MIT community files — the repository is ready for public review without a checkout or source upload.
 - Pinned `yaml` 2.8.3 after the audit identified GHSA-48c2-rrv3-qjmp in 2.8.1 — the repeat audit reports no known vulnerabilities.
 - Applied the complete IAMUVIN signature canon and exact verifier — the repository gate ends with `SIGNED`.
+- Published [uvindev/compose-permit](https://github.com/uvindev/compose-permit) as a public MIT repository with Docker Compose, security, DevSecOps, YAML, configuration diff, open-source, and Next.js topics — the metadata names the exact problem for GitHub search.
 
 ## Verification
 
@@ -47,6 +48,8 @@ Result: PASS
 
 Additional evidence: `pnpm audit --prod --audit-level=moderate` returned `No known vulnerabilities found`. The production browser returned 16 sample findings, zero findings for identical inputs, a bounded parse error without source echo, a 4,030-character copied Markdown review, zero console warnings or errors, 320 px client/scroll widths of 320/320, and no visible target below 44 px. Production HTTP checks returned 200, the documented security headers, the health boundary flags, and no `X-Powered-By` header.
 
+Git evidence: implementation commit `d1d8529d5b07553c8def85a3d476f426b9094248` is authored by `Uvin Vindula <uvin95dev@gmail.com>`. GitHub reports `visibility: PUBLIC`, `isPrivate: false`, `licenseInfo: MIT License`, default branch `main`, and the seven documented repository topics.
+
 ## Assumptions I made
 
 - Compose Specification YAML is the initial input contract; unresolved includes, interpolation, image contents, and daemon state remain operator review steps — Claude: confirm or correct.
@@ -57,7 +60,6 @@ Additional evidence: `pnpm audit --prod --audit-level=moderate` returned `No kno
 
 - I did not deploy a live service, connect checkout, collect payment, contact users, or submit to an app marketplace.
 - I did not resolve effective Compose models, read referenced files, inspect images, contact a registry, or execute Docker.
-- Public GitHub creation, repository metadata, push, and CI verification remain before this handoff becomes DONE.
 
 ## Risk
 

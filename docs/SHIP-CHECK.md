@@ -8,6 +8,6 @@
 - [x] Deterministic secret scan, authored-copy audit, and production dependency audit pass.
 - [x] MIT license, contributing guide, security policy, issue templates, and CI workflow are present.
 - [x] IAMUVIN signature gate exits 0 and ends with `SIGNED`.
-- [ ] Public GitHub repository and `origin/main` match the verified commit.
-- [ ] GitHub description, topics, README, and social-preview candidate improve search discovery.
+- [x] Public GitHub repository and `origin/main` match the verified commit.
+- [x] GitHub description, topics, and README expose specific Docker Compose security search terms.
 - [x] Revenue and customer count remain unverified; no trusted payment or customer evidence was supplied.
