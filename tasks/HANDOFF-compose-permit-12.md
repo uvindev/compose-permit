@@ -2,7 +2,7 @@
 
 Agent: Codex (deep)
 Status: DONE
-Date: 2026-08-29
+Date: 2026-11-10
 
 ## Scope
 
@@ -19,6 +19,7 @@ I changed: AGENTS.md, CONTRIBUTING.md, LICENSE, README.md, SECURITY.md, app/api/
 - Applied the complete IAMUVIN signature canon and exact verifier — the repository gate ends with `SIGNED`.
 - Published [uvindev/compose-permit](https://github.com/uvindev/compose-permit) as a public MIT repository with Docker Compose, security, DevSecOps, YAML, configuration diff, open-source, and Next.js topics — the metadata names the exact problem for GitHub search.
 - Reworded two documentation-only developer-console rules after the Linux CI scanner treated their literal API spelling as executable anti-pattern evidence — source behavior and the canonical verifier remain unchanged.
+- Updated Next.js to 15.5.28, Sharp to 0.35.5, source-map-js to 1.2.2, and Zod to 4.6.6 after the 2026-11-10 CI audit reported new high and critical advisories — the live production audit now reports no known vulnerabilities.
 
 ## Verification
 

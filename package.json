@@ -34,11 +34,11 @@
     "verify": "pnpm format:check && pnpm lint && pnpm typecheck && pnpm test && pnpm build && bash ./scripts/verify-signature.sh"
   },
   "dependencies": {
-    "next": "15.5.22",
+    "next": "15.5.28",
     "react": "19.2.8",
     "react-dom": "19.2.8",
     "yaml": "2.8.3",
-    "zod": "4.4.3"
+    "zod": "4.6.6"
   },
   "devDependencies": {
     "@eslint/eslintrc": "3.3.3",
@@ -48,7 +48,7 @@
     "@types/react": "19.2.2",
     "@types/react-dom": "19.2.2",
     "eslint": "9.39.2",
-    "eslint-config-next": "15.5.22",
+    "eslint-config-next": "15.5.28",
     "jsdom": "27.1.0",
     "prettier": "3.6.2",
     "tailwindcss": "4.3.3",
