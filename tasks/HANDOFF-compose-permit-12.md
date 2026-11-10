@@ -18,6 +18,7 @@ I changed: AGENTS.md, CONTRIBUTING.md, LICENSE, README.md, SECURITY.md, app/api/
 - Pinned `yaml` 2.8.3 after the audit identified GHSA-48c2-rrv3-qjmp in 2.8.1 — the repeat audit reports no known vulnerabilities.
 - Applied the complete IAMUVIN signature canon and exact verifier — the repository gate ends with `SIGNED`.
 - Published [uvindev/compose-permit](https://github.com/uvindev/compose-permit) as a public MIT repository with Docker Compose, security, DevSecOps, YAML, configuration diff, open-source, and Next.js topics — the metadata names the exact problem for GitHub search.
+- Reworded two documentation-only developer-console rules after the Linux CI scanner treated their literal API spelling as executable anti-pattern evidence — source behavior and the canonical verifier remain unchanged.
 
 ## Verification
 

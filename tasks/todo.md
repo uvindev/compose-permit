@@ -2,7 +2,7 @@
 
 - [x] Console badge fires once, in production, on every route
 - [x] Console badge survives React StrictMode without doubling
-- [x] No `console.clear()` anywhere in the codebase
+- [x] No developer-console clearing calls anywhere in the codebase
 - [x] Footer credit visible, linked, `rel="noopener noreferrer"`
 - [x] Footer credit clears 4.5:1 contrast
 - [x] Footer credit inherits client palette (not applicable; owned product)

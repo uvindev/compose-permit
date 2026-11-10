@@ -21,5 +21,5 @@ Minimum on every build:
 5. `package.json` author, `X-Built-By` header, `humans.txt`, README footer.
 
 Verify with `./scripts/verify-signature.sh` before marking any task done.
-Em dash `—` always. No emoji. Never `console.clear()`.
+Em dash `—` always. No emoji. Never clear the developer console.
 Git identity: `Uvin Vindula <uvin95dev@gmail.com>`.
